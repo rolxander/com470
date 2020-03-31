@@ -20,20 +20,15 @@ public class ValidarEmailTest {
     ValidarEmail validar = ValidarEmail.getInstance();
     public ValidarEmailTest() {
     }
-    
     @BeforeClass
     public static void setUpClass() {
     }
-    
     @AfterClass
     public static void tearDownClass() {
-        
     }
-    
     @Before
     public void setUp() {
     }
-    
     @After
     public void tearDown() {
         System.out.print("Reseteamos valor clean para siguiente uso");

@@ -15,7 +15,6 @@ public class ValidarEmail {
 
     private ValidarEmail() {
     }
-
     public static synchronized ValidarEmail getInstance() {
         if (ValidarEmail.instance == null) {
             instance = new ValidarEmail();
